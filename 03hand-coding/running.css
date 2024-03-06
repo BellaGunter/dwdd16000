@@ -1,0 +1,16 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size:16px;
+    font-weight:300;
+    /* Squares for my nested list (runtype.html) */
+    ol > li > ul {
+        list-style-type: square; 
+        margin-left: 20px; 
+    }
+    
+}
+address{
+border: 1px blue solid;
+background-color: grey;
+color: white;
+}
