@@ -3,15 +3,82 @@ body {
     font-size:16px;
     font-weight:300;
 }
+/*--- this is where I format my header.--*/
+header {
+    background-color: #00c2c7; 
+    padding: 1rem 2vw;
+}
+header p {
+    letter-spacing: .5px;
+}
+header h1, p {
+    margin: 0;
+    color: black; 
+}
+/*--- this is where I format my navigation.--*/
+nav ul{
+    background-color: #97ebdb;
+    list-style-type: none; 
+    padding: 0 2vw;
+    margin: 0;
+    display: flex; 
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem; 
+    color: #024873; 
+    font-weight: 700;
+    display: block; 
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color:white;
+
+}
+nav li.active a{
+    background-color: #024873; 
+    color: white; 
+}
     /* Squares for my nested list (runtype.html) */
     ol li {
         list-style-type: square; 
         margin-left: 20px; 
     }
-    
+        
+
+ /* this is formating the main section */
+main p{
+    color: black;
+}
+main h1{
+    color: #024873;  
+}
+main h2{
+    color: #024873;  
+}
+main ol{
+    background-color: #eaeaea;
+    padding: 1rem 2vw;
+    margin: 1px;
+}
+main span{
+    background-color: #eaeaea;
+    padding: 0 2vw;
+  }
+
+
+dl{
+    background-color: #eaeaea;
+}
+
+dl dt{
+    color: #005582;
+}
+
 address{
      /* grey border for my adress (runtype.html) */
 border: 1px blue solid;
-background-color: grey;
-color: white;
+border-radius: 5px;
+background-color: #daf8e3;
+color: black;
 }
